@@ -1,0 +1,247 @@
+@font-face {
+    font-family: TradeGothic LT CondEighteen;
+    src: url('./fonts/Trade\ Gothic\ LT\ Bold\ Condensed\ No.\ 20.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 60px 124px;
+    background: #F6F6F6;
+}
+
+.container {
+    width: 1620px;
+    margin: 0 auto;
+}
+
+
+/**************************************** HEADER-MENU STARTED ******************************/
+
+
+.header-menu {
+    display: flex;
+}
+
+.header-logo {
+    margin-right: 392px;
+}
+
+.header-links {
+    margin-right: 330px;
+    display: flex;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 24px;
+    color: #131212;
+}
+
+.header-links a>img{
+    width: 22px;
+    height: 22px;
+}
+
+.hdr-a1 {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header-user-i {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-shop {
+    cursor: pointer;
+}
+
+
+/**************************************** HEADER-MENU end( ******************************/
+
+
+.header-main-info {
+    display: flex;
+    margin-top: 140px;
+}
+
+.hdr-small-title {
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #131212;
+    margin-bottom: 20px;
+}
+
+.hdr-main-title {
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 72px;
+    line-height: 110px;
+    text-transform: uppercase;
+    color: #131212;
+    margin-bottom: 37px;
+}
+
+.hdr-info-text {
+    width: 390px;
+    font-family: 'Helvetica Neue';
+    font-size: 20px;
+    line-height: 30px;
+    color: #131212;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.img {
+    margin-right: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.product-prc>h1 {
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 24px;
+}
+
+.product-prc>button {
+    margin-top: 22px;
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 24px;
+    padding: 12px 34px;
+    border-radius: 12px;
+    border-color: lightsteelblue;
+    cursor: pointer;
+}
+
+.products-info-price {
+    padding: 100px 90px;
+    background-color: cornsilk;
+    text-align: center;
+    margin-top: 195px;
+    margin-bottom: 95px;
+}
+
+.products-info-price>h1 {
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: uppercase;
+    color: #131212;
+}
+
+.products-info-price>button {
+    box-shadow: #131212;
+    margin-top: 22px;
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 24px;
+    padding: 12px 84px;
+    border-radius: 22px;
+    border-color: lightsteelblue;
+    cursor: pointer;
+    background-color: rgb(255, 83, 83);
+}
+
+section>h1 {
+    text-align: center;
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: uppercase;
+    color: #131212;
+    margin-bottom: 90px;
+}
+
+.card-videos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 150px;
+}
+
+.video-card1-texts {
+    margin-top: 77px;
+}
+
+.video-card2-texts {
+    margin-top: 77px;
+    margin-left: 45px;
+    margin-right: 150px;
+}
+
+.video-card1 {
+    /* margin-left: 100px; */
+    margin-right: 50px;
+}
+
+.video-card2 {
+    margin-top: 100px;
+}
+
+.vid-ttl {
+    width: 580px;
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 52px;
+    line-height: 86px;
+    text-transform: uppercase;
+    color: #131212;
+    margin-bottom: 32px;
+}
+
+.xudi-rzmr {
+    font-family: 'TradeGothic LT CondEighteen';
+    font-size: 22px;
+    line-height: 86px;
+    text-transform: uppercase;
+    color: #131212;
+    margin-bottom: 12px;
+}
+
+.phone-number a {
+    display: flex;
+    text-decoration: none;
+    color: #131212;
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+.xudi-price {
+    font-size: 32px;
+    font-family: inherit;
+}
+
+.video-card3>video {
+    margin-top: 190px;
+}
+
+.global-brend-ttl {
+    margin-top: 79px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.brend-logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.brend{
+    margin-top: 120px;
+    width: 120px;
+    height: 100px;
+    display: flex;
+}
+
+.brend5{
+    width: 120px;
+    height: 120px;
+}
